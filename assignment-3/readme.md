@@ -1,9 +1,14 @@
 Assignment 3 – Dynamic E-Commerce / Fashion Store Web App
+
 Description
+
 This assignment is a dynamic web application designed as a Fashion Store / E-Commerce website using HTML, CSS, JavaScript, and Bootstrap CDN.
 The website displays products in card format, includes a navigation bar, category menu, banner section, and product listing layout similar to an online shopping website.
+
 Features
+
 ●Responsive navbar with search bar
+
 ●Category menu bar
 ●Product cards with images and price
 ●Add to Cart button UI
@@ -32,3 +37,4 @@ Objective
 To design a dynamic shopping / fashion store website UI using HTML, CSS, JavaScript and Bootstrap.
  Author
 Ishwar Sonawane
+
