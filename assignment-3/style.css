@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f8f8;
+}
+
+/* Pink Color */
+.text-pink {
+    color: #6d33f4;
+}
+
+.btn-pink {
+    background-color: #f43397;
+    color: white;
+    border: none;
+}
+
+.btn-pink:hover {
+    background-color: #d81b80;
+}
+
+.category-bar {
+    background-color: rgb(241, 35, 35);
+    border-bottom: 1px solid #ddd;
+}
+
+.category-bar span {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.category-bar span:hover {
+    color: #f3ebef;
+}
+
+.banner {
+    background: linear-gradient(to right, #f43397, #ff7eb3);
+    border-radius: 10px;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
