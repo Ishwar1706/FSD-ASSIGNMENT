@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header>
+      <h1>Weather Dashboard</h1>
+      <p>Forecast visualizations using Open-Meteo API.</p>
+    </header>
+
+    <section class="controls">
+      <label for="city-input">City</label>
+      <input id="city-input" type="text" value="New York" placeholder="Enter city name" />
+      <button id="load-btn">Load Weather</button>
+    </section>
+
+    <section class="summary" id="summary-card">
+      <div>
+        <h2 id="location-name">Loading...</h2>
+        <p id="weather-details">Enter a city and click Load Weather.</p>
+      </div>
+      <div class="weather-metrics">
+        <div><strong>Temp High</strong><span id="temp-high">--</span></div>
+        <div><strong>Temp Low</strong><span id="temp-low">--</span></div>
+        <div><strong>Precipitation</strong><span id="precip-total">--</span></div>
+      </div>
+    </section>
+
+    <section class="charts-grid">
+      <article class="chart-card">
+        <h3>7-Day Temperature</h3>
+        <canvas id="tempChart"></canvas>
+      </article>
+      <article class="chart-card">
+        <h3>7-Day Precipitation</h3>
+        <canvas id="precipChart"></canvas>
+      </article>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
